@@ -1,15 +1,20 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there */
-/* Return: 0 */
+/**
+ * main: main-description
+ * Description: it does something
+ * Return: 0
+ */
 int main(void)
 {
 		int n;
 			srand(time(0));
 				n = rand() - RAND_MAX / 2;
 					/* your code goes there */
-				int last = n % 10;
+				int last;
+
+				last = n % 10;
 					if (last > 5)
 					{
 						printf("Last digit of %i is %i and is greater than 5\n", n, last);

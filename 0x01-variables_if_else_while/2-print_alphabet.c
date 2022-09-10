@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-/* main - script that output the alphabet in lowercase */
-/* Return: 0 */
+/**
+ * main - script that output the alphabet in lowercase
+ * Description: it does something
+ *Return: 0
+ */
 int main(void)
 {
 	char c = 'a';
