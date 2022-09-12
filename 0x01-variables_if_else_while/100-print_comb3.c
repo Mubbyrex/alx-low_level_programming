@@ -1,33 +1,28 @@
 #include <stdio.h>
 /**
- * Main - main description
- * Description - a program that prints all
- * possible different combinations of two digits
- * writing to please betty
- * Write a program that prints all possible
+ *   main - main block
  *
- *   different combinations of two digits
+ *     Description: Write a program that prints all possible
  *
- *     Numbers must be separated by ,, followed by a space
+ *       different combinations of two digits
  *
- *       The two digits must be different
+ *         Numbers must be separated by ,, followed by a space
  *
- *         01 and 10 are considered the same combination of the two digit
+ *           The two digits must be differen
+ *             01 and 10 are considered the same combinatio
+ *               Print only the smallest combination of two di
+ *                 Numbers should be printed in ascending order, wi
+ *                   You can only use the putchar functio
  *
- *           Print only the smallest combination of two digits
+ *                     (every other function (printf, puts, etc…) is f
  *
- *             Numbers should be printed in ascending order, with two digits
+ *                       You can only use putchar five times maximu
  *
- *               You can only use the putchar function
+ *                         You are not allowed to use any variab
  *
- *                 (every other function (printf, puts, etc…) is forbidden)
+ *                           All your code should be in the main f
  *
- *                   You can only use putchar five times maximum in your code
- *
- *                     You are not allowed to use any variable of type char
- *
- *                       All your code should be in the main function
- * Return: 0
+ *                             Return: 0
  */
 int main(void)
 {
