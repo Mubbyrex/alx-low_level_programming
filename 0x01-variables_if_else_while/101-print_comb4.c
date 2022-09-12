@@ -45,7 +45,7 @@ int main(void)
 			if (c != d && d != e && e < d && d < c)
 			{
 				putchar('0' + e);
-				putchar('o' + d);
+				putchar('0' + d);
 				putchar('0' + c);
 
 				if (c + d + e != 9 + 8 + 7)
